@@ -2,8 +2,8 @@
 
 /**
  * more_numbers - nmbr fct
- * Bwave ICT file
- * Return: no return
+ * my file
+ * Return: void
  */
 
 void more_numbers(void)
