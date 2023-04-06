@@ -1,8 +1,8 @@
 
 /**
- * is_prime_number - the function returns 1 if the input integer is
- * a prime number otherwise return 0
- * @n: int
+ * check - fuction used for checking
+ * @a: int
+ * @b: int
  * Return: 1 or 0
  * chivicks coding
  */
