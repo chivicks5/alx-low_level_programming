@@ -10,21 +10,21 @@
 int factorial(int n)
 
 {
-	int y;
+	int x;
 
-	if  (y < 0)
+	if  (x < 0)
 
 	{
 		return (-1);
 	}
-	else if (y == 0)
+	else if (x == 0)
 
 	{
 		return (1);
 	}
 	else
 	{
-		y = n * (n - 1);
+		x = n * (n - 1);
 	}
-	return (y);
+	return (x);
 }
