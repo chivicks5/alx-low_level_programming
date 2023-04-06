@@ -2,15 +2,16 @@
 
 /**
  * check - checks for the square root
- * @n: int to be checked
- * @a:int
+ * @a: current value to check if it's the sqrt of b
  * @b:int
  * Return: -1 if @n not a natural sqrt
  * chivicks doing hard things
  */
 int check(int a, int b)
 {
+
 	if (a * a == b)
+
 		return (a);
 	if (a * a > b)
 		return (-1);
