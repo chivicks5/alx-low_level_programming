@@ -4,7 +4,7 @@
  * main - prints its name, followed by a new line.
  * @argc: argument count the number of command line
  * @argv: arguments for arrays of pointer
-  by chivicks 
+ * by chivicks
  * Return: 0
  */
 
