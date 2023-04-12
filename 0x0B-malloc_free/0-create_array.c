@@ -9,22 +9,20 @@
  * by chivicks
  * Return: a pointer to the array, or NULL if it fails
  */
+
 char *create_array(unsigned int size, char c)
 {
+	char *array;
+	unsigned int i;
+
 	if (size == 0)
 		return (NULL);
 
-	char *array = malloc(size * sizeof(char));
-	/* Removed unnecessary cast and optimized size calc. */
+	array = (char *)malloc(sizeof(char) * size);
 	if (array == NULL)
-	{
-		/* Error handling - failed to allocate memory */
-		perror("Error: Failed to allocate memory for array");
 		return (NULL);
-	}
 
-	for (unsigned int i = 0; i < size; i++)
-	/* Moved variable declaration to loop */
+	for (i = 0; i < size; i++)
 		array[i] = c;
 
 	return (array);
