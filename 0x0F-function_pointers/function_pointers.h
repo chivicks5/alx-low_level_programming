@@ -9,5 +9,8 @@ void array_iterator(int *array, size_t size, void (*action)(int));
 int int_index(int *array, int size, int (*cmp)(int));
 
 #endif
-/* NOI MORE MAIN.H*/
-/* FUNCTION_POINTERS_H*/
+/**
+ *  NOI MORE MAIN.H
+ * FUNCTION_POINTERS_H
+ *
+ */
